@@ -149,7 +149,7 @@ def predict(X, beta):
 
 
 if __name__ == '__main__':
-    data_path = r'C:\Users\hanmi\Documents\xiguabook\watermelon3_0_Ch.csv'
+    data_path = r'.\watermelon3_0_Ch.csv'
     #
     data = pd.read_csv(data_path).values
 
